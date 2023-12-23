@@ -21,3 +21,89 @@
   align-items: center;
   justify-content: center;
 }
+
+.introSection {
+  padding: 3rem 0; /* Spacing above and below the intro section */
+  background-color: var(--ifm-color-primary-lightest); /* A light blue background */
+  border-top: 5px solid var(--ifm-color-primary); /* A top border to highlight the section */
+}
+
+.introSection .container {
+  max-width: 800px; /* Constrains the width for better readability */
+  margin: 0 auto; /* Centers the container */
+  text-align: center; /* Centers the text inside the container */
+}
+
+.introSection h2 {
+  color: var(--ifm-color-primary-darkest); /* Dark blue for the heading */
+  font-size: 2rem; /* Larger font size for the heading */
+  margin-bottom: 1rem; /* Spacing after the heading */
+}
+
+.introSection h3 {
+  color: var(--ifm-color-primary-darker); /* Even darker blue for subheading */
+  font-weight: normal; /* Normal font weight for a lighter feel */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 1rem; /* Spacing after the subheading */
+}
+
+/* Add media query for responsive text sizing */
+@media (max-width: 768px) {
+  .introSection h2 {
+    font-size: 1.75rem; /* Slightly smaller font size on smaller screens */
+  }
+
+  .introSection h3 {
+    font-size: 1rem; /* Smaller font size for the subheading on smaller screens */
+  }
+}
+
+.stepsSection {
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+  padding: 1.5rem;
+  border-bottom: 2px solid var(--ifm-color-primary-light); /* Light blue border for separation */
+}
+
+.step:last-child {
+  border-bottom: none;
+}
+
+.stepTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stepAction {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--ifm-color-primary); /* Primary blue for titles */
+  margin-bottom: 1rem;
+}
+
+.step p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.step a {
+  display: inline-block;
+  background-color: var(--ifm-color-primary); /* Primary blue for links */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 0.5rem; /* Space between links */
+}
+
+.step a:hover {
+  background-color: var(--ifm-color-primary-dark); /* Darker blue on hover */
+  transition: background-color 0.3s ease;
+}
+
