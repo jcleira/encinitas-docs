@@ -6,25 +6,26 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #5AA9E6; /* A light blue to match the sky */
+  --ifm-color-primary-dark: #2E8BC0; /* A darker shade of blue */
+  --ifm-color-primary-darker: #247BA0; /* Even darker to maintain contrast */
+  --ifm-color-primary-darkest: #1C6482; /* A deep blue for darker elements */
+  --ifm-color-primary-light: #7FC1E9; /* A lighter blue for hover states, etc. */
+  --ifm-color-primary-lighter: #A6D4FA; /* The lightest blue for backgrounds */
+  --ifm-color-primary-lightest: #CCE6F4; /* The very light blue for borders or shadows */
+  --ifm-code-font-size: 95%; /* Unchanged */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* Unchanged */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #FF9F1C; /* A vibrant orange to contrast well on dark backgrounds */
+  --ifm-color-primary-dark: #FF8C00; /* A slightly darker orange */
+  --ifm-color-primary-darker: #DB7B00; /* A dark orange for contrast */
+  --ifm-color-primary-darkest: #B46900; /* A burnt orange for deeper contrast */
+  --ifm-color-primary-light: #FFB547; /* A lighter orange */
+  --ifm-color-primary-lighter: #FFCA7B; /* An even lighter orange */
+  --ifm-color-primary-lightest: #FFDFAC; /* The lightest orange for subtle highlights */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* Unchanged */
 }
+
