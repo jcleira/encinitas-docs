@@ -5,5 +5,7 @@
   "link": {
     "type": "generated-index",
     "description": "Create and manage alerts"
-  }
+  },
+  "collapsible": true,
+  "collapsed": false
 }
