@@ -56,6 +56,7 @@ const config: Config = {
         src: 'img/encinitas.png',
       },
       items: [
+        {to: '/', label: 'Home', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
@@ -68,11 +69,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Links',
           items: [
             {
               label: 'Home',
               to: '/',
+            },
+            {
+              label: 'Docs',
+              to: '/docs/introduction',
             },
           ],
         },

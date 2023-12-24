@@ -28,8 +28,20 @@ function IntroSection() {
         Start using Encinitas
         </h2>
         <h3>
-      Encinitas is an observability platform that helps you build better dApps. You can bring in data from any Smart Contract and their frontend so that you can fully understand your system, analyze that data efficiently, and respond to incidents before they become problems. As extensive as the capablities of Encinitas are, you can get started with the platform by following a three-step procedure.
+        Encinitas is an observability platform that helps you build better dApps. You can bring relevant Smart Contracts and user information from any Solana dApp to fully understand and analyze user interactions and respond to incidents before they become problems. As extensive as the capabilities of Encinitas are, you can get started with the platform by following a three-step procedure.
         </h3>
+        <div className={styles.exploreButton}>
+          <Link
+            to="/docs/introduction"
+            className="button button--lg"
+            style={{
+              backgroundColor: 'var(--ifm-color-primary-darker)',
+              color: '#FFFFFF'
+            }}
+          >
+            Explore the Docs
+          </Link>
+        </div>
       </div>
     </section>
   );
@@ -53,14 +65,14 @@ function StepsSection() {
   return (
     <section className={styles.stepsSection}>
       <div className="container">
-        <Step stepNumber="1" stepTitle="Configure Your Smart Contracts">
-          <p>Set up your Solana Smart Contracts for integration and prepare your dApp for observability.</p>
+        <Step stepNumber="1" stepTitle="Configure Your dApp">
+          <p>Set up the Encinitas Solana integration and prepare your dApp for observability.</p>
         </Step>
         <Step stepNumber="2" stepTitle="Ingest Your Data">
-          <p>Encinitas auto-discovers your dApp configuration, guiding you through the setup. Once infrastructure agent is ready it will start collecting data.</p>
+          <p>Encinitas auto-discovers your dApp configuration, guiding you through the setup. Once the agent is ready it will start collecting data.</p>
         </Step>
         <Step stepNumber="3" stepTitle="Explore Dashboards">
-          <p>With data incoming, delve into dashboards for real-time insights. If you encounter issues, refer to our help resources.</p>
+          <p>With fully-fledged processed information, delve into dashboards for real-time insights.</p>
         </Step>
       </div>
     </section>
