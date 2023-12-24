@@ -56,14 +56,12 @@ const config: Config = {
         src: 'img/encinitas.png',
       },
       items: [
-        /*
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
         },
-        */
       ],
     },
     footer: {
