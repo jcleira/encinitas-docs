@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     imageSrc: require('@site/static/img/powered_by_solana.png').default,
     description: (
       <>
-        Encinitas is built with Solana principles and optimized for UX and Speed.
+        Encinitas is built with Solana principles and optimized for User Experience and Speed.
       </>
     ),
   },
